@@ -1,0 +1,50 @@
+.swiper-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.swiper-container .swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: -webkit-box;
+  display: flex;
+  transition: transform;
+  box-sizing: content-box;
+}
+.swiper-container .swiper-wrapper .swiper-slide {
+  -webkit-flex-shrink: 0;
+  -ms-flex: 0 0 auto;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: auto;
+}
+.swiper-container .swiper-pagination {
+  position: absolute;
+  text-align: center;
+  transition: .3s;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+}
+.swiper-container .swiper-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 2px;
+  display: inline-block;
+  background: #eff1f7;
+  margin: 0 3px;
+}
+.swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+  width: 14px;
+  background-color: #ef5450;
+}
+/*# sourceMappingURL=swiper.css.map */

@@ -1,0 +1,62 @@
+@charset 'utf-8';
+.plana {
+  font-size: 12px;
+}
+.plana .plana__head {
+  display: flex;
+  height: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+.plana .plana__head .all {
+  margin: .5rem 1rem;
+  text-align: center;
+}
+.plana .plana__head .all p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.plana .plana__head .head__icon {
+  width: 1.5rem;
+  color: #999;
+}
+.plana .plana__head .head__mount1 {
+  color: #1D74CA;
+}
+.plana .plana__head .head__mount2 {
+  color: #1D74CA;
+}
+.plana .plana__head .head__mount3 {
+  color: #FF0000;
+}
+.plana .plana__tips .footer__tips {
+  text-align: right;
+}
+.plana .plana__tips .footer__tips .tips {
+  display: inline-block;
+  margin: -0.1rem 0;
+  width: .3rem;
+  height: .3rem;
+  border-radius: 1rem;
+  border: 1px solid #ccc;
+}
+.plana .plana__tips .footer__tips span {
+  color: #999;
+}
+.plana .content {
+  height: 1.3rem;
+  background: #ccc;
+  margin: .2rem 0;
+  line-height: 1.5rem;
+}
+.plana .content .name {
+  font-weight: bold;
+  margin-left: .3rem;
+  font-style: italic;
+}
+.plana .content .status {
+  margin-left: 5.6rem;
+  color: #fff;
+}
+.plana .content .status.cur {
+  color: #f33131;
+}

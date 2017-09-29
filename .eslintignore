@@ -1,0 +1,4 @@
+mock/*.js
+webpack.*.js
+swiper-3.3.1.js
+jsPlumb.js

@@ -1,0 +1,37 @@
+@charset "utf-8";
+.top-header {
+  height: 44px;
+  overflow: hidden;
+}
+header {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  height: 44px;
+  z-index: 99;
+  background-color: #f02b2b;
+  overflow: hidden;
+}
+header .i-goback {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1rem;
+  height: 1rem;
+  background: url('../../assets/images/i-back.png') no-repeat 0.2rem 0.25rem;
+  background-size: .8rem;
+}
+header .title {
+  display: block;
+  margin: 0 .64rem;
+  height: 44px;
+  line-height: 44px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

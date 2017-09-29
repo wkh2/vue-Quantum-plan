@@ -1,0 +1,49 @@
+@charset 'utf-8';
+.pingu {
+  font-size: 12px;
+}
+.pingu .pingu__head {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  display: flex;
+  height: 3.5rem;
+  background: url('../../assets/images/pic_背景.jpg') no-repeat;
+  background-size: 11rem;
+}
+.pingu .pingu__head .head__text {
+  color: #fff;
+  font-size: 12px;
+  line-height: .7rem;
+  text-align: left;
+  margin: .6rem 1rem;
+}
+.pingu .pingu__head .head__border {
+  border: 1px solid #999;
+  height: 2rem;
+  margin-top: .5rem;
+}
+.pingu .pingu__head .head__status {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  font-size: 13px;
+}
+.pingu .pingu__center {
+  margin-top: 2rem;
+  height: 5rem;
+}
+.pingu .pingu__footer {
+  margin-top: 5rem;
+  display: flex;
+  color: #fff;
+  text-align: center;
+}
+.pingu .pingu__footer .footer__child {
+  flex: 1;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  background: #ff6f6f;
+}
+.pingu .pingu__footer .icon2 {
+  margin-left: .2rem;
+}

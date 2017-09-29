@@ -1,0 +1,78 @@
+@charset 'utf-8';
+.compont {
+  font-size: 12px;
+}
+.compont .compont__mes .compont__mount {
+  width: 2rem;
+  height: .5rem;
+  border-radius: .2rem;
+  border: 1px solid #ccc;
+  margin: 1rem;
+  margin: .6rem;
+  display: inline-block;
+}
+.compont .compont__mes .compont__mount .mount__circle {
+  width: .4rem;
+  height: .4rem;
+  border-radius: .5rem;
+  background: pink;
+  border: 1px solid #ccc;
+  margin: .03rem;
+  display: inline-block;
+}
+.compont .compont__mes .compont__mount .mount__circle span {
+  margin-left: .5rem;
+  font-size: 9px;
+}
+.compont .compont__mes .block {
+  line-height: 1rem;
+  display: inline-block;
+  width: 1rem;
+  height: 2rem;
+  background: #f2f2f2;
+  position: absolute;
+  right: 0;
+  bottom: 1.8rem;
+}
+.compont .compont__mes .block img {
+  margin-left: .2rem;
+  width: .8rem;
+  height: .8rem;
+}
+.compont .footer {
+  color: #fff;
+  background: #dcdcdc;
+  height: 2rem;
+  margin-top: 2.2rem;
+  border-top: 1px solid #ccc;
+}
+.compont .footer span {
+  line-height: 1.7rem;
+  margin-left: .3rem;
+}
+.compont .btn {
+  text-align: right;
+  height: .8rem;
+  line-height: .8rem;
+  text-align: center;
+  position: fixed;
+  bottom: .5rem;
+  right: .5rem;
+  border-radius: .1rem;
+}
+.compont .one {
+  margin-right: 2.5rem;
+}
+.compont .one span {
+  margin-top: -0.8rem;
+  display: inline-block;
+}
+.compont .img1 {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-top: -0.2rem;
+}
+.compont .img2 {
+  width: .8rem;
+  height: .8rem;
+}

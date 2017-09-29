@@ -1,0 +1,66 @@
+@charset 'utf-8';
+.demand {
+    font-size: 12px;
+    .demand__head {
+        color: #fff;
+        font-size: 10px;
+        font-weight: bold;
+        display: flex;
+        height: 5rem;
+        background: url('../../assets/images/pic_背景.jpg')no-repeat;
+        background-size: 11rem;
+        .head__icon {
+            font-size: 20px;
+            line-height: 2rem;
+            text-align: center;
+            margin: .6rem 1.5rem;
+        }
+        .icon1 {
+            width: 2rem;
+            height: 2rem;
+            background: url('../../assets/images/pic_进行中.png')no-repeat;
+            background-size: 2rem;
+        }
+        .icon2 {
+            width: 2rem;
+            height: 2rem;
+            background: url('../../assets/images/pic_待评估.png')no-repeat;
+            background-size: 2rem;
+        }
+        .head__txt {
+            text-align: center;
+            margin-top: -.3rem;
+        }
+    }
+    .demand__nav {
+        display: flex;
+        border-bottom: 1px solid #ccc;
+        p {
+            line-height: 1.5rem;
+            text-align: center;
+            margin: 0 1rem;
+            font-size: 13px;
+        }
+        .light {
+            border-bottom: 2px solid #f02b2b;
+        }
+    }
+    .content {
+        height: 1.3rem;
+        background: #dcdcdc;;
+        margin: .2rem 0;
+        line-height: 1.5rem;
+        .name {
+            font-weight: bold;
+            margin-left: .3rem;
+            font-style: italic;
+        }
+        .status {
+            margin-left: 5.6rem;
+            color: #fff;
+            &.cur {
+                color: #f33131;
+            }
+        }
+    }
+}

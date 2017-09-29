@@ -1,0 +1,89 @@
+@charset 'utf-8';
+.compont {
+  font-size: 12px;
+}
+.compont .compont__mes .compont__mount {
+  width: 2rem;
+  height: .5rem;
+  border-radius: .2rem;
+  border: 1px solid #ccc;
+  margin: 1rem;
+  margin: .6rem;
+  display: inline-block;
+}
+.compont .compont__mes .compont__mount .mount__circle {
+  width: .4rem;
+  height: .4rem;
+  border-radius: .5rem;
+  background: pink;
+  border: 1px solid #ccc;
+  margin: .03rem;
+  display: inline-block;
+}
+.compont .compont__mes .compont__mount .mount__circle span {
+  margin-left: .5rem;
+  font-size: 9px;
+}
+.compont .compont__mes .block {
+  line-height: 1rem;
+  display: inline-block;
+  width: 1rem;
+  height: 2rem;
+  background: #f2f2f2;
+  position: absolute;
+  right: 0;
+}
+.compont .compont__mes .block img {
+  margin-left: .2rem;
+  width: .8rem;
+  height: .8rem;
+}
+.compont .compont__mes .light {
+  background: #1d74ca;
+  color: #fff !important;
+}
+.compont .compont__mes .compont__plan {
+  display: flex;
+  margin-top: .5rem;
+}
+.compont .compont__mes .compont__plan .plan {
+  color: #1D74CA;
+  flex: 1;
+  height: 1.5rem;
+  border: 1px solid #ccc;
+}
+.compont .compont__mes .compont__plan .plan h3 {
+  margin: 0 .5rem;
+  border-bottom: 1px solid #1D74CA;
+  text-align: center;
+}
+.compont .compont__mes .compont__plan .plan p {
+  text-align: center;
+  line-height: .7rem;
+}
+.compont .compont__mes .compont__plan .plan p em {
+  font-style: italic;
+}
+.compont .compont__mes .footer {
+  color: #fff;
+  height: 2rem;
+  background: #dcdcdc;
+}
+.compont .compont__mes .footer span {
+  line-height: 2rem;
+}
+.compont .compont__mes .footer .btn {
+  text-align: right;
+  width: 2rem;
+  height: .8rem;
+  line-height: .8rem;
+  text-align: center;
+  position: fixed;
+  bottom: .5rem;
+  right: .5rem;
+  border-radius: .1rem;
+}
+.compont .compont__mes .footer .btn img {
+  width: .8rem;
+  height: .8rem;
+}

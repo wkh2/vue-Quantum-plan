@@ -1,0 +1,49 @@
+@charset 'utf-8';
+.review {
+  font-size: 12px;
+}
+.review .review__content {
+  color: #999;
+  height: 3.5rem;
+}
+.review .review__content .content__icon {
+  margin: .5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+  background: #b7ace4 url('../../assets/images/pic_头像5.png') no-repeat;
+  background-size: 1.5rem;
+}
+.review .review__content .content__icon .name {
+  margin-left: 1.7rem;
+  line-height: 1rem;
+}
+.review .review__content .content__icon .date {
+  display: inline-block;
+  margin-left: 7rem;
+  width: 2rem;
+  position: relative;
+  top: -0.7rem;
+}
+.review .review__content .text {
+  margin-left: .7rem;
+  width: 8.5rem;
+  margin-top: -0.3rem;
+}
+.review .review__content .icon2 {
+  margin: .5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #62c6e1 url('../../assets/images/pic_头像2.png') no-repeat;
+  background-size: 1.5rem;
+}
+.review .review__content .icon3 {
+  margin: .5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #d78ad6 url('../../assets/images/pic_头像3.png') no-repeat;
+  background-size: 1.5rem;
+}
+.review .all {
+  margin-top: 1rem;
+}

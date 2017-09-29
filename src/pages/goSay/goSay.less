@@ -1,0 +1,79 @@
+@charset 'utf-8';
+.say {
+    font-size: 12px;
+    .say__tips {
+        text-align: center;
+        justify-content: center;
+        line-height: .8rem;
+        margin-top: 1rem;
+        .tips__tit {
+            font-weight: bold;
+            font-size: 14px;
+        }
+    }
+    footer {
+        display: flex;
+        position: fixed;
+        bottom: 1rem;
+        box-sizing: border-box;
+        overflow: hidden;
+        z-index: 99;
+        background-color: #FFF;
+        height: 2.1rem;
+        width: 100%;
+        font-size: 0.12rem;
+        color: #666;
+        text-align: center;
+        .say__footer {
+            flex: 1;
+            border: none;
+            text-align: center;
+            width: 1.3rem;
+            height: .7rem;
+            line-height: .7rem;
+            margin: 0 .5rem;
+            background: #fff;
+            border-radius: .5rem;
+        }
+        .photo {
+            height: 2rem;
+            margin-top: -.1rem;
+            background: url('../../assets/images/icon_相册.png')no-repeat;
+            background-size: 2.3rem;
+        }
+        .say__say {
+            background: #f02b2b;
+            font-size: 14px;
+            color: #fff !important;
+            flex: 1;
+            width: 2rem;
+            line-height: 2.1rem;
+            border-radius: 2rem;
+            text-align: center;
+            margin: 0 .5rem;
+            border: 1px solid #000;
+        }
+    }
+    .say__submit {
+        .submit__txt {
+            width: 7rem;
+            height: 4rem;
+            border: 1px solid #ccc;
+            margin: 1rem 1.5rem;
+            text-indent: .3rem;
+            box-shadow: 0 0 4px 2px rgba(0, 0, 0, .3);
+        }
+        .submit__btn {
+            border-radius: .2rem;
+            position: fixed;
+            bottom: 5rem;
+            left: 3.5rem;
+            border: none;
+            width: 3rem;
+            height: 1rem;
+            border: 1px solid #ccc;
+            background: #ff4a4a;
+            box-shadow: 0 0px 4px 0px rgba(0, 0, 0, .3);
+        }
+    }
+}

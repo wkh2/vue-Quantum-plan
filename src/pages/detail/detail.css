@@ -1,0 +1,113 @@
+@charset "utf-8";
+.detail {
+  font-size: 12px;
+}
+.detail .all {
+  margin: 0 .4rem 0 .2rem;
+  border-bottom: 1px solid #ccc;
+}
+.detail .light {
+  border: 1px solid #f02b2b;
+  color: #f02b2b;
+}
+.detail .detail__top {
+  height: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.detail .detail__top span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f02b2b;
+}
+.detail .detail__slide1 {
+  height: 1rem;
+}
+.detail .detail__slide1 .slide1__txt {
+  padding-top: .4rem;
+}
+.detail .detail__slide2 {
+  height: 4rem;
+}
+.detail .detail__slide2 .slide2__flex {
+  display: flex;
+}
+.detail .detail__slide2 .slide2__flex .slide2__cont {
+  flex: 1;
+  margin: .2rem .1rem;
+  width: 3rem;
+  height: 1.2rem;
+  background: #ccc;
+  text-align: center;
+  line-height: 1.2rem;
+}
+.detail .detail__slide2 .slide2__flex .slide2__cont.active {
+  border: 1px solid #f02b2b;
+  color: #f02b2b;
+}
+.detail .detail__slide2 .slide2__txt {
+  margin-top: .2rem;
+}
+.detail .detail__slide3 {
+  height: 2.2rem;
+}
+.detail .detail__slide3 .slide3__flex {
+  display: flex;
+}
+.detail .detail__slide3 .slide3__flex .slide3__cont {
+  flex: 1;
+  margin: .2rem .1rem;
+  width: 3rem;
+  height: 1.2rem;
+  background: #ccc;
+  text-align: center;
+  line-height: 1.2rem;
+}
+.detail .detail__slide3 .slide3__txt {
+  margin-top: 0.1rem;
+}
+.detail .detail__slide4 {
+  height: 2.2rem;
+}
+.detail .detail__slide4 .slide4__flex {
+  display: flex;
+}
+.detail .detail__slide4 .slide4__flex .slide4__cont {
+  flex: 1;
+  margin: .2rem .1rem;
+  width: 3rem;
+  height: 1.2rem;
+  background: #ccc;
+  text-align: center;
+  line-height: 1.2rem;
+}
+.detail .detail__slide4 .slide4__txt {
+  margin-top: 0.1rem;
+}
+.detail .detail__slide5 {
+  margin: 0 .4rem 0 .2rem;
+}
+.detail .detail__slide5 .slide5__flex {
+  display: flex;
+}
+.detail .detail__slide5 .slide5__flex .slide5__cont {
+  flex: 1;
+  margin: .2rem .1rem;
+  width: 3rem;
+  height: 1.2rem;
+  background: #ccc;
+  text-align: center;
+  line-height: 1.2rem;
+}
+.detail .detail__btn {
+  position: fixed;
+  bottom: 2rem;
+  left: 3.5rem;
+  width: 3rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  border: 1px solid #ccc;
+  background: #ccc;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+}
