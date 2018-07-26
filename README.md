@@ -17,4 +17,4 @@ npm run pre
 
 # 打线上包
 npm run build
-```
+# 此项目采用了vue-echarts结合的图标有swiper,tab等组件
